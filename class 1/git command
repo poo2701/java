@@ -1,0 +1,12 @@
+git config --global user.name "poo2701"
+git config --global user.email "purnimaraj27@gmail.com"
+git init
+git add <file name>
+git add .
+git status
+git commit -m"your comment here"
+git push -u origin master
+git log
+git config --list
+git remote add origin git@github.com:YourUsername/your-app.git
+git remote -v
