@@ -4,7 +4,7 @@ class Occurence{
 	Scanner sc=new Scanner(System.in);
 	String str=sc.nextLine();
 	String str1=sc.nextLine();
-	if(str.equals(str1)==true){
+	if(str.contains(str1)==true){
 	System.out.println("str contains str1");}
 	else{
 	System.out.println("str not contains str1");
