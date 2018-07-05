@@ -28,7 +28,7 @@ public class MainActivity extends AppCompatActivity {
         });
     }
     private  void validate(String usernmae,String password){
-        if ((usernmae.equals("nik")) && (password.equals("123"))){
+        if ((usernmae.equals("purnima")) && (password.equals("987"))){
             Intent xyz=new Intent(MainActivity.this,display.class);
             startActivity(xyz);
         }
